@@ -1,7 +1,8 @@
 # melanoma-deep-learning
 
-First install docker from docker website in Ubuntu 20.04
-Edit Dockerfile file according to your local system locations
+First install docker from docker website in Ubuntu 20.04.
+
+Edit Dockerfile file according to your local system locations.
 
 Run below commands:
 
