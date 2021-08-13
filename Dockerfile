@@ -1,15 +1,15 @@
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 
 RUN apt-get update && apt-get install -y python3 python3-pip sudo
 
-RUN useradd -m abhishek
+RUN useradd -m akshay
 
-RUN chown -R abhishek:abhishek /home/abhishek/
+RUN chown -R akshay:akshay /home/akshay/
 
-COPY --chown=abhishek . /home/abhishek/app/
+COPY --chown=akshay . /home/akshay/app/
 
-USER abhishek
+USER akshay
 
-RUN cd /home/abhishek/app/ && pip3 install -r requirements.txt
+RUN cd /home/akshay/app/ && pip3 install -r requirements.txt
 
-WORKDIR /home/abhishek/app
+WORKDIR /home/akshay/app
