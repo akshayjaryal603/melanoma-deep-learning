@@ -2,6 +2,10 @@
 
 First install docker from docker website in Ubuntu 20.04.
 
+Download trained model from below link:
+
+https://www.kaggle.com/c/siim-isic-melanoma-classification/data
+
 Edit Dockerfile file according to your local system locations.
 
 Run below commands:
