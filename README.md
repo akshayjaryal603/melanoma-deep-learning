@@ -14,4 +14,4 @@ Run below commands:
 
 2.) docker run -ti melanoma:api /bin/bash
 
-3.) docker run -p 12000:12000 -ti melanoma:api python3 api.py
+3.) sudo docker run -p 12000:12000 -ti melanoma:api python3 api.py
